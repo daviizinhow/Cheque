@@ -155,14 +155,18 @@ const char* escreve_extenso(char *num)
     {
         strcat(resultado, "real");
     }
-    else if(casa_a_mais || atoi(num) == 1000)
+    else if(casa_a_mais && atoi(num) == 1000)
     {
         strcpy(resultado, "");
         strcat(resultado, "mil reais");
     }
-    else
+    else if(casa_a_mais == 0)
     {
         strcat(resultado, "de reais");
+    }
+    else
+    {
+        strcat(resultado, "reais");
     }
 
 
