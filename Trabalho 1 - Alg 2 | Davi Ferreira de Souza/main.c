@@ -195,14 +195,14 @@ int menu3()
     system("clear");
     
 
-    printf("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n");
+    printf("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n");
     printf("    Pague por meio\n");
     printf("    deste cheque uma quantia de: %s\n", extenso);
     printf("    a %s\n", destinatario);
     printf("    BANCO BOM\n");
-    printf("%-70s%s\n", espacos, nome);
-    printf("%-70s%02d/%02d/%04d\n", espacos, data_hoje.dia, data_hoje.mes, data_hoje.ano);
-    printf("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n");
+    printf("%-40s%s\n", espacos, nome);
+    printf("%-40s%02d/%02d/%04d\n", espacos, data_hoje.dia, data_hoje.mes, data_hoje.ano);
+    printf("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n");
     
     sleep(10);
     system("clear");
